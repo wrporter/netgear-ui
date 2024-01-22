@@ -7,7 +7,7 @@ source .ci/config.sh
 
 # Inject secrets
 injectSecrets
-rsync -azPI bin/.env.prod ${SSH_USER}@${SSH_HOST}:${BASE_DIRECTORY}/${APP}/
+rsync -azPI .env.prod ${SSH_USER}@${SSH_HOST}:${BASE_DIRECTORY}/${APP}/
 echo "-- Successfully rsync-ed file."
 scp -O ${SCP_PORT_OPT} .env.prod ${SSH_USER}@${SSH_HOST}:${BASE_DIRECTORY}/${APP}/.env
 
