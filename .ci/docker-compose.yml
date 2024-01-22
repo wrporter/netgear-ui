@@ -11,3 +11,5 @@ services:
       - NODE_ENV=production
     ports:
       - 2024:3000
+    volumes:
+      - ./data:/app/data

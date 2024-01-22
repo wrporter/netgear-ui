@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2987414-533d-4e24-b4b5-b0bba8f0fe37" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/apps/main/bin/ntgrrc-v0.9.2-linux-arm64" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/.ci/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/.ci/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/bin/ntgrrc-v0.9.2-linux-amd64" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/bin/ntgrrc-v0.9.2-linux-amd64" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/server/cron.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/server/cron.server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/server/database.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/server/database.server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/server/singleton.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/server/singleton.server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/tsconfig.json" afterDir="false" />
-    </list>
+    <list default="true" id="d2987414-533d-4e24-b4b5-b0bba8f0fe37" name="Changes" comment="Fix several issues to properly build" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705786496123</updated>
-      <workItem from="1705786497380" duration="21818000" />
+      <workItem from="1705786497380" duration="22504000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -112,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705888117932</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix several issues to properly build">
+      <option name="closed" value="true" />
+      <created>1705889530878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705889530878</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +119,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Fix several issues to properly build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix several issues to properly build" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
