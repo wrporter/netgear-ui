@@ -1,9 +1,9 @@
 version: '3.8'
 
 services:
-  netgear-ui:
-    container_name: netgear-ui
-    image: wesp/netgear-ui
+  netgear-main:
+    container_name: netgear-main
+    image: wesp/netgear-main
     restart: unless-stopped
     env_file:
       - .env
