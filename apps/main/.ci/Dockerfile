@@ -27,6 +27,8 @@ FROM base AS production
 
 WORKDIR /app
 
+RUN apk add --no-cache curl bash libc6-compat
+
 # Build version metadata
 ARG APP_ID
 ARG BUILD_BRANCH
@@ -45,6 +47,10 @@ COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/build ./build
 COPY --from=builder /app/public ./public
 
-COPY bin/ntgrrc-v0.9.2-linux-arm64 /usr/local/bin/ntgrrc
+# Synology NAS
+COPY bin/ntgrrc-v0.9.2-linux-amd64 /usr/local/bin/ntgrrc
+
+# MacOS
+#COPY bin/ntgrrc-v0.9.2-linux-arm64 /usr/local/bin/ntgrrc
 
 CMD ["node", "./build/main.js"]
