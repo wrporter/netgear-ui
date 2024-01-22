@@ -23,7 +23,4 @@ export async function initCronJobs() {
     const database = await readDatabase();
     poe.offCron.setTime(new CronTime(database.poe.offCron, 'America/Denver'));
     poe.onCron.setTime(new CronTime(database.poe.onCron, 'America/Denver'));
-
-    console.log(poe.offCron.nextDate());
-    console.log(poe.onCron.nextDate());
 }

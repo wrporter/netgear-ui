@@ -28,7 +28,6 @@ export async function readDatabase(): Promise<Database> {
 export async function updateDatabase(update: DeepPartial<Database>): Promise<void> {
     const database = await readDatabase();
     const result = deepmerge(database, update);
-    console.log(update, result);
     return writeFile(FILE_PATH, JSON.stringify(result, null, 2));
 }
 

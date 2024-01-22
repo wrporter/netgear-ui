@@ -5,52 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2987414-533d-4e24-b4b5-b0bba8f0fe37" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.ci/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE/Default.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/main.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/.ci/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/.ci/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/.ci/config.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/.ci/deploy.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/.ci/run-local.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/.ci/test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/.npmrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/app/auth.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/app/root.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/app/routes/_app.$.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/app/routes/_app._index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/app/routes/_app._unauthenticated.login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/app/routes/_app._unauthenticated.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/app/routes/_app.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/app/routes/healthcheck.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/app/routes/logout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/app/session.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/app/tailwind.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/app/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/bin/ntgrrc-v0.9.2-linux-amd64" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/remix.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/remix.env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/server/cmd.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/server/cron.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/server/database.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/server/env.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/server/logger.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/server/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/server/singleton.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/server/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/tailwind.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/bin/ntgrrc-v0.9.2-linux-arm64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main/.ci/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/.ci/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main/bin/ntgrrc-v0.9.2-linux-amd64" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/bin/ntgrrc-v0.9.2-linux-amd64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main/server/cron.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/server/cron.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main/server/database.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/server/database.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main/server/singleton.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/server/singleton.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,8 +88,8 @@
       <recent name="$PROJECT_DIR$/apps" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/apps/main/data" />
       <recent name="$PROJECT_DIR$/apps/main/bin" />
+      <recent name="$PROJECT_DIR$/apps/main/data" />
       <recent name="$PROJECT_DIR$/apps/main/server" />
       <recent name="$PROJECT_DIR$/apps/main/app/lib" />
     </key>
@@ -139,14 +102,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705786496123</updated>
-      <workItem from="1705786497380" duration="20313000" />
+      <workItem from="1705786497380" duration="21818000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1705888117932</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705888117932</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>

@@ -3,6 +3,7 @@
   "include": ["**/*", ".*",],
   "exclude": ["**/build", "coverage"],
   "compilerOptions": {
+    "types": [],
     "baseUrl": ".",
     "paths": {
       "~/*": ["./app/*"],

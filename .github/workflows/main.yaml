@@ -15,7 +15,7 @@ jobs:
       SSH_USER: ${{ secrets.SSH_USER }}
       SSH_HOST: ${{ secrets.SSH_HOST }}
       SSH_PORT: ${{ secrets.SSH_PORT }}
-      COMMIT_SECRETS: ${{ secrets.COMMIT_SECRETS }}
+      NETGEAR_SECRETS: ${{ secrets.NETGEAR_SECRETS }}
 
     steps:
       - name: 🥼 Check out code

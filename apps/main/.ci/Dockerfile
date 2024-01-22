@@ -45,6 +45,6 @@ COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/build ./build
 COPY --from=builder /app/public ./public
 
-COPY bin/ntgrrc-v0.9.2-linux-amd64 /usr/local/bin/ntgrrc
+COPY bin/ntgrrc-v0.9.2-linux-arm64 /usr/local/bin/ntgrrc
 
 CMD ["node", "./build/main.js"]
