@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2987414-533d-4e24-b4b5-b0bba8f0fe37" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.ci/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE/Default.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/main.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/.ci/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/.ci/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/.ci/config.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/.ci/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/.ci/run-local.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/.ci/test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/auth.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/root.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/routes/_app.$.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/routes/_app._index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/routes/_app._unauthenticated.login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/routes/_app._unauthenticated.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/routes/_app.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/routes/healthcheck.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/routes/logout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/session.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/tailwind.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/bin/ntgrrc-v0.9.2-linux-amd64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/remix.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/remix.env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/server/cmd.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/server/cron.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/server/database.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/server/env.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/server/logger.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/server/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/server/singleton.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/server/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/tailwind.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="CodyActiveAccount">
+    <option name="activeAccountId" value="aab130a4-ea37-4df6-9ac4-e31df2471c94" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="800zb8qx" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2bEiAeDtthunt2p4YayZslbTMi0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.CodyProjectSettingsMigration": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/wesp/code/src/github.com/wrporter/netgear-ui/netgear-ui",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "/Users/wesp/code/src/github.com/wrporter/netgear-ui/netgear-ui/apps/main/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/apps/main" />
+      <recent name="$PROJECT_DIR$/apps" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/main/data" />
+      <recent name="$PROJECT_DIR$/apps/main/bin" />
+      <recent name="$PROJECT_DIR$/apps/main/server" />
+      <recent name="$PROJECT_DIR$/apps/main/app/lib" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2987414-533d-4e24-b4b5-b0bba8f0fe37" name="Changes" comment="" />
+      <created>1705786496123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705786496123</updated>
+      <workItem from="1705786497380" duration="20313000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

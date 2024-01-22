@@ -1,0 +1,16 @@
+*
+!app
+!bin
+!public
+public/build
+!server
+!.eslintignore
+!.eslintrc.js
+!.npmrc
+!package.json
+!package-lock.json
+!postcss.config.js
+!remix.config.js
+!remix.env.d.ts
+!tailwind.config.ts
+!tsconfig.json
