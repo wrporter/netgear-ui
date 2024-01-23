@@ -79,21 +79,19 @@ export default function Page() {
                             Turn ports OFF
                         </Button>
                     </fetcher.Form>
-                    <fetcher.Form method="POST">
-                        <input
-                            className="hidden"
-                            name="scheduleEnabled"
-                            defaultValue={data.config.scheduleEnabled ? 'off' : 'on'}
-                        />
-                        <Button
-                            type="submit"
-                            color={data.config.scheduleEnabled ? 'danger' : 'primary'}
-                        >
-                            {data.config.scheduleEnabled ? 'Disable Schedule' : 'Enable Schedule'}
-                        </Button>
-                    </fetcher.Form>
                 </div>
             )}
+
+            <fetcher.Form method="POST">
+                <input
+                    className="hidden"
+                    name="scheduleEnabled"
+                    defaultValue={data.config.scheduleEnabled ? 'off' : 'on'}
+                />
+                <Button type="submit" color={data.config.scheduleEnabled ? 'danger' : 'primary'}>
+                    {data.config.scheduleEnabled ? 'Disable Schedule' : 'Enable Schedule'}
+                </Button>
+            </fetcher.Form>
 
             <div>Next off: {data.poe.nextOff}</div>
             <div>Next on: {data.poe.nextOn}</div>
