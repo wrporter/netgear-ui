@@ -1,4 +1,4 @@
-import { Input } from '@nextui-org/react';
+import { Input, Link } from '@nextui-org/react';
 import type { Unit } from 'convert-units';
 import convert from 'convert-units';
 import type { ChangeEvent, ChangeEventHandler } from 'react';
@@ -68,10 +68,10 @@ export default function Page() {
     }
 
     return (
-        <div className="p-4 flex flex-col space-y-4">
+        <div className="p-4 flex flex-col space-y-4 max-w-96">
             <h1 className="font-bold">Sweetener Converter</h1>
 
-            <div className="flex flex-col space-y-4 max-w-96">
+            <div className="flex flex-col space-y-4">
                 {sweeteners.map((sweetener) => (
                     <Input
                         key={sweetener}
@@ -90,6 +90,18 @@ export default function Page() {
                     />
                 ))}
             </div>
+
+            <p className="mt-8">
+                I recommend the NOW brand powder{' '}
+                <Link href="https://a.co/d/bPaeMAO" target="_blank" rel="noreferrer">
+                    Monk Fruit
+                </Link>{' '}
+                and{' '}
+                <Link href="https://a.co/d/7HNPYzW" target="_blank" rel="noreferrer">
+                    Stevia
+                </Link>
+                . These come without additives and sugar alcohols.
+            </p>
         </div>
     );
 }
