@@ -17,7 +17,7 @@ const tspRatio: Record<Sweetener, number> = {
 type StateType = Record<Sweetener, { value: string; unit: Unit }>;
 
 const inputs: Record<Sweetener, { label: string; description?: string }> = {
-    stevia: { label: 'Stevia / Monk Fruit', description: '1 scoop = 1/16 tsp' },
+    stevia: { label: 'Stevia / Monk Fruit', description: '1 scoop = 1/32 tsp' },
     honey: { label: 'Honey / Maple Syrup' },
     sugar: { label: 'Sugar' },
     powderedSugar: { label: 'Powdered Sugar' },
