@@ -12,7 +12,7 @@ import {
     useLoaderData,
     useNavigate,
 } from '@remix-run/react';
-import { ThemeProvider } from 'remix-themes';
+import { PreventFlashOnWrongTheme, ThemeProvider } from 'remix-themes';
 
 import { getUser } from '~/auth.server';
 import { themeSessionResolver } from '~/session.server';
@@ -48,6 +48,7 @@ export default function App() {
                     <meta charSet="utf-8" />
                     <meta name="viewport" content="width=device-width,initial-scale=1" />
                     <Meta />
+                    <PreventFlashOnWrongTheme ssrTheme={Boolean(data.theme)} />
                     <Links />
                 </head>
                 <body className="h-full">

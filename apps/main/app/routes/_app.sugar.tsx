@@ -1,4 +1,5 @@
 import { Input, Link } from '@nextui-org/react';
+import type { MetaFunction } from '@remix-run/node';
 import type { Unit } from 'convert-units';
 import convert from 'convert-units';
 import type { ChangeEvent, ChangeEventHandler } from 'react';
@@ -35,6 +36,8 @@ function getNextState(from: Sweetener, value: number, fromUnit: Unit) {
             { [from]: { value: value.toString(), unit: fromUnit } } as StateType,
         );
 }
+
+export const meta: MetaFunction = () => [{ title: 'Sweetener Converter' }];
 
 export default function Page() {
     const [state, setState] = useState<StateType>({
