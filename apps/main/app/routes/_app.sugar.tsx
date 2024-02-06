@@ -72,7 +72,7 @@ export default function Page() {
 
     return (
         <div className="p-4 flex flex-col space-y-4 max-w-96">
-            <h1 className="font-bold">Sweetener Converter</h1>
+            <h1 className="text-xl font-bold">Sweetener Converter</h1>
 
             <div className="flex flex-col space-y-4">
                 {sweeteners.map((sweetener) => (
@@ -94,6 +94,7 @@ export default function Page() {
                 ))}
             </div>
 
+            <h2 className="text-lg font-bold">Notes</h2>
             <p className="mt-8">
                 I recommend the NOW brand powder{' '}
                 <Link href="https://a.co/d/bPaeMAO" target="_blank" rel="noreferrer">
@@ -103,7 +104,20 @@ export default function Page() {
                 <Link href="https://a.co/d/7HNPYzW" target="_blank" rel="noreferrer">
                     Stevia
                 </Link>
-                . These come without additives and sugar alcohols.
+                . These come without additives and sugar alcohols. NOW has a great{' '}
+                <Link
+                    href="https://www.nowfoods.com/healthy-living/articles/monk-fruit-sweetener-equivalency"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    equivalency chart
+                </Link>{' '}
+                that I&apos;ve used to determine conversions.
+            </p>
+            <p>
+                These sweeteners have a different taste and sweetness profile. I recommend trying
+                out half the amount from the conversion before adding the full amount. I encourage
+                you to experiment and find out what you like best.
             </p>
         </div>
     );
