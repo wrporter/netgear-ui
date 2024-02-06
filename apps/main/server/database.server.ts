@@ -42,7 +42,7 @@ export async function initDatabase(): Promise<void> {
                     adminPassword: env.ADMIN_PASSWORD,
                     poe: {
                         // 9:30pm
-                        offCron: '0 30 9 * * *',
+                        offCron: '0 30 21 * * *',
                         // 6:30am
                         onCron: '0 30 6 * * *',
                         scheduleEnabled: true,
