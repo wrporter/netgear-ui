@@ -1,9 +1,18 @@
-import { Button, Spinner, tv } from '@nextui-org/react';
+import {
+    Button,
+    Spinner,
+    Table,
+    TableBody,
+    TableCell,
+    TableColumn,
+    TableHeader,
+    TableRow,
+    tv,
+} from '@nextui-org/react';
 import type { ActionFunctionArgs, LoaderFunctionArgs } from '@remix-run/node';
 import { defer } from '@remix-run/node';
 import { Await, useFetcher, useLoaderData } from '@remix-run/react';
 import React, { Suspense } from 'react';
-import { twMerge } from 'tailwind-merge';
 
 import { requireUser } from '~/auth.server';
 import { disablePoePorts, enablePoePorts, poeStatus } from '~/server/cmd.server';
@@ -13,7 +22,7 @@ import { readDatabase, updateDatabase } from '~/server/database.server';
 const portVariants = tv({
     variants: {
         power: {
-            true: 'bg-green-300',
+            true: 'bg-green-300 dark:bg-green-700',
         },
     },
 });
@@ -102,36 +111,24 @@ export default function Page() {
                         isLoading ? (
                             <Spinner label="Loading PoE status..." />
                         ) : (
-                            <table className="shadow-lg bg-white border-collapse">
-                                <thead>
-                                    <tr>
-                                        <th className="bg-blue-100 border text-left px-8 py-4">
-                                            Port
-                                        </th>
-                                        <th className="bg-blue-100 border text-left px-8 py-4">
-                                            Power
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <tbody>
+                            <Table className="max-w-60">
+                                <TableHeader>
+                                    <TableColumn>Port</TableColumn>
+                                    <TableColumn>Status</TableColumn>
+                                </TableHeader>
+                                <TableBody>
                                     {status.map((port) => (
-                                        <tr
-                                            key={port.portId}
-                                            className="hover:bg-gray-50 focus:bg-gray-300"
-                                        >
-                                            <td className="border px-8 py-4">{port.portId}</td>
-                                            <td
-                                                className={twMerge(
-                                                    'border px-8 py-4',
-                                                    portVariants({ power: port.power }),
-                                                )}
+                                        <TableRow key={port.portId}>
+                                            <TableCell>{port.portId}</TableCell>
+                                            <TableCell
+                                                className={portVariants({ power: port.power })}
                                             >
                                                 {port.power ? 'On' : 'Off'}
-                                            </td>
-                                        </tr>
+                                            </TableCell>
+                                        </TableRow>
                                     ))}
-                                </tbody>
-                            </table>
+                                </TableBody>
+                            </Table>
                         )
                     }
                 </Await>
