@@ -71,13 +71,8 @@ export default function LoginPage() {
                             name="password"
                             type="password"
                             autoComplete="current-password"
-                            aria-describedby="password-error"
+                            errorMessage={form.fieldErrors.password}
                         />
-                        {form.fieldErrors.password && (
-                            <div className="pt-1 text-red-700" id="password-error">
-                                {form.fieldErrors.password}
-                            </div>
-                        )}
 
                         {actionData?.passwordFailure && (
                             <div className="pt-1 text-red-700">{actionData.passwordFailure}</div>
