@@ -122,7 +122,7 @@ export default function Page() {
     const [scheduleEnabled, setScheduleEnabled] = useState<boolean>(data.config.scheduleEnabled);
 
     return (
-        <div className="p-4 flex flex-col space-y-4 max-w-80">
+        <div className="p-4 flex flex-col space-y-4 sm:max-w-96 min-w-80">
             <ValidatedForm
                 id="scheduleForm"
                 method="POST"
